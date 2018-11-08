@@ -224,3 +224,10 @@ This project is licensed under [MIT license](http://opensource.org/licenses/MIT)
           When using Hibernate only use 4.3.10.Final or newer.
 - (1.0.2) Adding a Predicate Visitor.
 - (1.0.1) Added navigation through collection graphs.
+
+
+==========
+## 更新历史
+### 2.1.0 
+* 增加了java.sql.Timestamp, java.sql.Date, java.sql.Time格式的支持
+* 修正了Time Timestamp时间比对时构造SQL 被增加日偏移的问题

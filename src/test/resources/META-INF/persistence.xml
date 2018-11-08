@@ -6,11 +6,11 @@
   			 version="2.0">
 	<persistence-unit name="persistenceUnit">
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-		<class>com.github.tennaito.rsql.jpa.entity.Course</class>
-		<class>com.github.tennaito.rsql.jpa.entity.Department</class>
-		<class>com.github.tennaito.rsql.jpa.entity.Person</class>
-		<class>com.github.tennaito.rsql.jpa.entity.Title</class>
-		<class>com.github.tennaito.rsql.jpa.entity.Teacher</class>
+		<class>xyz.xyan.orm.rsql.jpa.entity.Course</class>
+		<class>xyz.xyan.orm.rsql.jpa.entity.Department</class>
+		<class>xyz.xyan.orm.rsql.jpa.entity.Person</class>
+		<class>xyz.xyan.orm.rsql.jpa.entity.Title</class>
+		<class>xyz.xyan.orm.rsql.jpa.entity.Teacher</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"   		 value="org.hsqldb.jdbcDriver" />
 			<property name="javax.persistence.jdbc.url"       		 value="jdbc:hsqldb:mem:ProductDAOTest" />
